@@ -1,0 +1,118 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(img/back.jpg);
+    background-size: 1550px;
+    background-repeat: no-repeat;
+    font-family: 'Red Hat Display';
+}
+header{
+    color: white;
+    margin: -16px;
+    padding: 17px;
+    border: 0px;
+    background-color: black;
+}
+ .left{
+    background-color: white;
+    position: absolute;
+    left: 50px;
+    top: 16px;
+display: inline-block;
+/* border: 2px solid green; */
+ }
+ .mid{
+    display:block;
+    width: 35%;
+    margin: 90px auto;
+    margin-bottom: -37px;
+    /* border: 2px solid red; */
+ }
+ .right{
+    position: absolute;
+    right: 54px;
+    top: 96px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+ }
+ .left img{
+    width: 62px;
+    height: 76px;
+ }
+ .left h2{
+    color: black;
+    margin:auto;
+ }
+ .nav a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+ }
+ .nav a:hover{
+color: grey;
+text-decoration: underline solid;
+ }
+ .nav  li{
+    color: white;
+    display:inline-block;
+    padding: 10px 21px;
+    font-size: 20px;
+ }
+.search input{ 
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 3px 9px;
+    width: 250px;
+}
+.right button{
+    height: 25px;
+    width: 35px;
+    border-radius: 49px;
+}
+.right button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.container{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 122px 20px;
+}
+#p{
+    border: 3px solid black;
+    width: 274px;
+    height: 309px;
+}
+#p2{
+    
+    border: 3px solid black;
+    width: 274px;
+    height: 309px;
+   
+}
+#p3{
+    border: 3px solid black;
+    width: 262px;
+    height: 309px;
+ 
+}
+#p4{
+    border: 3px solid black;
+    width: 274px;
+    height: 309px;
+}
+.container img{
+    cursor: pointer;
+    width: 271px ;
+    height: 263px ;
+}
+.footer{
+    color: white;
+    background-color: black;
+    padding: 1px;
+}
