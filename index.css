@@ -1,68 +1,56 @@
-body{
-    margin: 0px;
-    padding: 0px;
-    background-image: url(img/back.jpg);
-    background-size: 1550px;
-    background-repeat: no-repeat;
-    font-family: 'Red Hat Display';
+*{
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0;
+    padding: 0;
 }
-header{
-    color: white;
-    margin: -16px;
-    padding: 17px;
-    border: 0px;
-    background-color: black;
-}
- .left{
+
+/* logo and image */
+.logo{
+    margin: 10px 10px;
     background-color: white;
-    position: absolute;
-    left: 50px;
-    top: 16px;
-display: inline-block;
-/* border: 2px solid green; */
- }
- .mid{
-    display:block;
-    width: 35%;
-    margin: 90px auto;
-    margin-bottom: -37px;
-    /* border: 2px solid red; */
- }
- .right{
-    position: absolute;
-    right: 54px;
-    top: 96px;
-    display: inline-block;
-    /* border: 2px solid yellow; */
- }
- .left img{
-    width: 62px;
-    height: 76px;
- }
- .left h2{
-    color: black;
-    margin:auto;
- }
- .nav a{
+
+}
+.logo img{
+    width: 56px;
+    height: 67px;
+}
+.logo h3{
+color: black;
+}
+ /* navbar */
+#navbar{
+   
+    display: flex;
+    background-color: black;
+ align-items: end;
+ justify-content: space-between;
+}
+.navi ul{
+  
+    list-style: none;
+    display: flex;}
+    
+.navi ul a{
+  
+        padding:0px 37px;
+        font-size: 25px;
+       
     color: white;
-    display: inline-block;
     text-decoration: none;
-    cursor: pointer;
- }
- .nav a:hover{
-color: grey;
-text-decoration: underline solid;
- }
- .nav  li{
-    color: white;
-    display:inline-block;
-    padding: 10px 21px;
-    font-size: 20px;
- }
+}
+.navi ul a:hover{
+color: black;
+background-color: white;
+text-decoration: underline;
+}
+/* searchbox */
+#nav right{
+    justify-content:right;
+}
 .search input{ 
-    border: 2px solid white;
+    border: 3px solid white;
     border-radius: 20px;
-    padding: 3px 9px;
+    padding: 0px 20px;
     width: 250px;
 }
 .right button{
@@ -73,46 +61,84 @@ text-decoration: underline solid;
 .right button:hover{
     background-color: black;
     color: white;
-    cursor: pointer;
-}
-.container{
+    cursor: pointer;}
+
+    /* Banner */
+    .banner{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        align-items:;
+        height: 480px;
+        background: url("/img/banner2.jpg") no-repeat center center/cover;
+        font-size: 25px;
+      
+    }
+   .banner h1{
+    background-color: rgb(3 2 2 / 40%);
+    color: white;
+   }
+   .banner p{
+    background-color: rgb(3 2 2 / 40%);
+    color: white;
+   }
+   .fashion{
+    background-image: url(/img/bg3.jpg);
+    display: flex;
+    justify-content: space-between;
+   }
+
+
+   /* products */
+   h2{
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 58px;
+    text-decoration: underline;
+   }
+   .card {
     background-color: black;
     color: white;
-    display: inline-block;
-    border: 2px solid black;
-    padding: 20px;
-    margin: 122px 20px;
-}
-#p{
-    border: 3px solid black;
-    width: 274px;
-    height: 309px;
-}
-#p2{
-    
-    border: 3px solid black;
-    width: 274px;
-    height: 309px;
-   
-}
-#p3{
-    border: 3px solid black;
-    width: 262px;
-    height: 309px;
- 
-}
-#p4{
-    border: 3px solid black;
-    width: 274px;
-    height: 309px;
-}
-.container img{
+    padding:1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+  }
+  
+  .price {
+    background-color: black;
+    color: white;
+    font-size: 22px;
+  }
+  .card p{
+    background-color: black;
+  }
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgb(58, 56, 56);
+    text-align: center;
     cursor: pointer;
-    width: 271px ;
-    height: 263px ;
-}
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+
 .footer{
     color: white;
     background-color: black;
     padding: 1px;
 }
+
+
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="form.css">
+    <title>Registeration</title>
+</head>
+<body>
+    <header>
+        <Nav id="navbar">
+            <div class="logo">
+                <img src="/img/logo.png" alt="Bag-it logo">
+                <h3>BAG-IT</h3>
+            </div>
+            <div class="navi">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">MEN</a></li>
+                    <li><a href="#">WOMEN</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="Search for product">
+                    <button type="submit">GO</button>
+                </div>
+            </Nav>
+        </header>
+        
+            <div class="container">
+                <form id="form" action="#">
+                    <h1>Register here</h1>
+                    <div class="input-control">
+                        <label for="username">Name:</label>
+                        <input type="text"  id="username" placeholder="Enter your name here">
+                        <div class="error"></div>
+                    </div>
+                    <div class="input-control">
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" placeholder="Enter your email here">
+                        <div class="error"></div>
+                    </div>
+                    <div class="input-control">
+                        <label for="password">Password:</label>
+                    <input type="password"  id="password" placeholder="Enter your password">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="password">Confirm Password:</label>
+                    <input type="password"  id="password2" placeholder="Confirm your password">
+                    <div class="error"></div>
+                </div>
+                <button type="submit">signup</button>
+            </form>
+        </div>
+        <script src="form.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,31 @@
+
+/* navbar */
+.logo{
+    margin: 0;
+    padding: 0;
+    align-self: center;
+}
+#navbar{
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.navi{
+    justify-content: center;
+    align-items:center ;
+}
+.navi ul{
+flex-direction: column;
+justify-content: center;
+}
+.right{
+    visibility: hidden;
+}
+/* banner */
+/* products */
+.fashion{
+    flex-direction: column;
+}
+/* footer */
+h2{
+    background-color: pink;
+}
